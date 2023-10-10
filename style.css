@@ -1,0 +1,283 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(10, 19, 48); */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* box-shadow: 0px -20px 50px black; */
+}
+.brandname
+{
+    width: 300px;
+    height: 100%;
+    /* color: white; */ 
+}
+.brandname h1
+{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(28, 1, 65);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.brandtagline
+{
+    width: 400px;
+    height: 100%;
+    /* color: violet; */
+}
+.brandtagline h3
+{
+    color: rgb(95, 100, 102);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8px;
+    padding-left: 8%;
+}
+.brandtagline h3 span
+{
+    color: blueviolet;
+    
+}
+.navmenu
+{
+    width: 800px;
+    height: 100%;
+    /* background-color: tomato; */
+    
+}
+.navmenu ol
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    
+}
+.navmenu ol li
+{
+    display: inline-block;
+    color: rgb(121, 119, 127);
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 15px 25px; 
+} 
+.navmenu ol li:hover
+{
+    color: rgb(65, 59, 59);
+    border-bottom: 2px solid rgb(2, 2, 24);
+    transition-duration: 0s;
+}
+.actbtn
+{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.actbtn button
+{
+    padding: 25px 55px;
+    /* background-color: rgb(129, 7, 244); */
+    color: rgb(54, 18, 18);
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: turquoise;
+    color: rgb(54, 18, 18);
+    transition-duration: 0.5s;
+}
+.hero
+{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(164, 90, 164);
+    background-image: url(image/interior-2598110_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 5px 20px rgb(111, 109, 109);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hero .herocontent
+{
+    width: auto;
+    text-align: left;
+    height: auto;
+ 
+}
+.herocontent h1
+{
+    font-size: 70px;
+    color: rgb(63, 57, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(230px, -70px);
+}
+.herocontent p
+{
+    font-size: 20px;
+    color: white;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    transform: translate(142px, -70px); 
+}
+.herocontent input
+{
+    margin-top: 20px;
+    width: 700px;
+    padding: 15px 25px;
+    border: none;
+   
+    border-radius: 10px;
+    transform: translate(0px, -55px);
+}
+.users
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: violet; */
+}
+.userheading
+{
+    width: 100%;
+    height: 25%;
+    /* background-color: turquoise; */
+    display: grid;
+    grid-template-rows: 120px 40px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    align-content: center;
+    color: rgb(46, 54, 79);
+    text-align: center;
+}
+.userheading h1
+{
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.userheading p
+{
+    font-size: 20px;
+}
+.userdetails
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+} 
+.userdetails .user
+{
+    width: 350px;
+    height: 470px;
+    /* background-color: transparent; */
+    text-align: center;
+    border-bottom: 3px solid rgb(63, 57, 63);
+}
+.userdetails .user h2
+{
+    font-size: 35px;
+    margin-top: -130px;
+}
+.userdetails .user p
+{
+    font-size: 20px;
+    
+}
+.userdetails .user button
+{
+    margin-top: 15px;
+    padding: 10px 35px;
+    background-color: rgb(28, 69, 90);
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.userdetails .user button:hover
+{
+    background-color: rgb(136, 30, 49);
+    border-radius: 8px;
+}
+.dd
+{
+    width: 25px;
+    height: 20px;
+    transform: translate(-28px, 28px);
+}
+.df
+{
+    transform: translate(0px, -15px);
+}
+.j2
+{
+    width: 30px;
+    height: 25px;
+    transform: translate(-32px, 32px);
+}
+.j1
+{
+    transform: translate(0px, -15px);
+}
+.s1
+{
+   transform: translate(0px, -20px);
+}
+.s2
+{
+    width: 35px;
+    height: 30px;
+    /* font-sizepx; */
+    transform: translate(-35px, 35px);
+}
+.f2
+{
+    width: 35px;
+    height: 30px;
+    /* font-sizepx; */
+    transform: translate(-35px, 35px);
+}
+.f1
+{
+    transform: translate(0px, -20px);
+}
+.k2
+{
+    width: 30px;
+    height: 25px;
+    /* font-sizepx; */
+    transform: translate(-35px, 33px);
+}
+.k1
+{
+    transform: translate(0px, -15px);
+}
+.s1
+{
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* background-color: blueviolet;     */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* 
+.d1
+{
+    width: 550px;
+    height: 550px;
+    background-color: cadetblue;
+}     */
+
